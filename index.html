@@ -1,264 +1,607 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Aditya Enterprise</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload homepage">
-		<div id="page-wrapper">
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Enterprise – Precision Metal Components</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-			<!-- Header -->
-				<div id="header-wrapper">
-					<header id="header" class="container">
+<!-- ══ NAVBAR ══ -->
+<nav id="navbar">
+  <div class="nav-logo">
+    <div class="logo-icon">AE</div>
+    <span><em>Aditya</em> Enterprise</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#capacity">Capacity</a></li>
+    <li><a href="#industries">Industries</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Get a Quote</a>
+  <div class="hamburger" id="hamburger" aria-label="Menu" role="button" tabindex="0">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
 
-						<!-- Logo -->
-							<div id="logo">
-								<h1><a href="index.html">Aditya Enterprise</a></h1>
-								<span></span>
-							</div>
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#about"      onclick="closeMobile()">About</a>
+  <a href="#capacity"   onclick="closeMobile()">Capacity</a>
+  <a href="#industries" onclick="closeMobile()">Industries</a>
+  <a href="#products"   onclick="closeMobile()">Products</a>
+  <a href="#contact"    onclick="closeMobile()">Contact &amp; Quote</a>
+</div>
 
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li class="current"><a href="index.html">Welcome</a></li>
-									<li><a href="products.html">Products</a></li>
-									<li><a href="aboutus.html">About Us</a></li>
-									<li><a href="contactus.html">Contact Us</a></li>
-										<!-- <ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li>
-												<a href="#">Phasellus consequat</a>
-												<ul>
-													<li><a href="#">Lorem ipsum dolor</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul> 
-									
-									
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>-->
-								</ul>
-							</nav>
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Precision Metal Components</div>
+    <h1 class="hero-title">
+      Engineering <span class="highlight">Precision</span><br>
+      Built for Every Industry
+    </h1>
+    <p class="hero-sub">
+      Manufacturer of all types of precision metal components — delivering
+      <strong>quantity with quality</strong> for Automobile, Gas, Electrical,
+      Electronics, Hardware &amp; General Engineering sectors.
+    </p>
+    <div class="hero-actions">
+      <a href="#products" class="btn-primary">Explore Products</a>
+      <a href="#contact"  class="btn-ghost">Request a Quote</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">15+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">10</div>
+        <div class="stat-label">CNC Machines</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">6</div>
+        <div class="stat-label">Industry Sectors</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">19+</div>
+        <div class="stat-label">Product Variants</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-					</header>
-				</div>
+<!-- ══ ABOUT ══ -->
+<section id="about">
+  <div class="about-grid">
+    <div class="reveal">
+      <span class="section-label">Who We Are</span>
+      <h2 class="section-title">Precision Crafted by Technocrats with a Vision</h2>
+      <p class="section-desc">
+        Founded by experienced technocrats with over 15 years of hands-on industrial
+        knowledge, Aditya Enterprise was built with a clear mission — to supply
+        high-quality precision metal components at scale, across diverse industries.
+      </p>
+      <ul class="about-features">
+        <li>
+          <div class="feat-icon">⚙</div>
+          <div class="feat-text">
+            <strong>Multi-axis CNC Turning</strong>
+            <span>Bar-fed Swiss-type and die-box machines for complex profiles</span>
+          </div>
+        </li>
+        <li>
+          <div class="feat-icon">🎯</div>
+          <div class="feat-text">
+            <strong>Tight Tolerances</strong>
+            <span>Diameter capacities from 12.5 mm to 19 mm with fine thread cutting</span>
+          </div>
+        </li>
+        <li>
+          <div class="feat-icon">📦</div>
+          <div class="feat-text">
+            <strong>Bulk Supply Ready</strong>
+            <span>Fleet of 10 machines ensures high volume, consistent output</span>
+          </div>
+        </li>
+        <li>
+          <div class="feat-icon">✅</div>
+          <div class="feat-text">
+            <strong>Quality at Every Step</strong>
+            <span>In-process inspection from raw material to finished component</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="about-visual reveal">
+      <div class="about-card">
+        <div class="about-card-num">15+ Years</div>
+        <div class="about-card-label">Industrial Experience</div>
+      </div>
+      <div class="about-card">
+        <div class="about-card-num">10</div>
+        <div class="about-card-label">Total Machines</div>
+      </div>
+      <div class="about-card">
+        <div class="about-card-num">19 mm</div>
+        <div class="about-card-label">Max Dia. Capacity</div>
+      </div>
+      <div class="about-card">
+        <div class="about-card-num">100 mm</div>
+        <div class="about-card-label">Max Length Capacity</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-			<!-- Banner -->
-				<div id="banner-wrapper">
-					<div id="banner" class="box container">
-						<div class="row">
-							<div class="col-7 col-12-medium">
-								<p>Welcome to </p>
-								<h2>Aditya Enterprise.</h2>
-								<p>We manufacture of all types of precision metal components</p>
-							</div>
-							<div class="col-5 col-12-medium">
-								<ul>
-									<li><a href="products.html" class="button large icon solid fa-arrow-circle-right">Ok let's go</a></li>
-									<li><a href="aboutus.html#" class="button alt large icon solid fa-question-circle">More info</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
+<!-- ══ CAPACITY ══ -->
+<section id="capacity">
+  <div class="section-head reveal">
+    <span class="section-label">Our Fleet</span>
+    <h2 class="section-title">Machine Capacity</h2>
+    <p class="section-desc">
+      A well-equipped shop floor with Swiss-type Tornos, Die-box, and Thada machines
+      to handle a wide variety of component geometries.
+    </p>
+  </div>
+  <div class="capacity-table-wrap reveal">
+    <table>
+      <thead>
+        <tr>
+          <th>Make</th>
+          <th>Machine Type</th>
+          <th>Max Diameter (mm)</th>
+          <th>Max Length (mm)</th>
+          <th>No. of Machines</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Tornos</td>  <td>Strohm-12.5</td><td>12.5</td><td>70</td> <td>1</td></tr>
+        <tr><td>Sujata</td>  <td>Diebox</td>      <td>19.0</td><td>50</td> <td>2</td></tr>
+        <tr><td>SH</td>      <td>Diebox</td>      <td>19.0</td><td>50</td> <td>1</td></tr>
+        <tr><td>SH</td>      <td>Diebox</td>      <td>12.5</td><td>50</td> <td>2</td></tr>
+        <tr><td>Bhagavati</td><td>Thada</td>      <td>19.0</td><td>100</td><td>3</td></tr>
+        <tr><td>Bhagavati</td><td>Drill</td>      <td>19.0</td><td>100</td><td>1</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
 
-			<!-- Features -->
-				<div id="features-wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-4 col-12-medium">
+<!-- ══ INDUSTRIES ══ -->
+<section id="industries">
+  <div class="section-head reveal">
+    <span class="section-label">Sectors We Serve</span>
+    <h2 class="section-title">Industries We Focus On</h2>
+    <p class="section-desc">
+      From automotive braking systems to electrical connectors, our components power
+      critical applications across six major industries.
+    </p>
+  </div>
+  <div class="industries-grid">
+    <div class="industry-card reveal">
+      <div class="ind-icon">🚗</div>
+      <div class="ind-title">Automobile</div>
+      <ul class="ind-items">
+        <li>ABS Brake Components</li>
+        <li>Solenoid Valves</li>
+      </ul>
+    </div>
+    <div class="industry-card reveal">
+      <div class="ind-icon">🔥</div>
+      <div class="ind-title">Gas</div>
+      <ul class="ind-items">
+        <li>LPG Valve Assembly</li>
+      </ul>
+    </div>
+    <div class="industry-card reveal">
+      <div class="ind-icon">⚡</div>
+      <div class="ind-title">Electrical</div>
+      <ul class="ind-items">
+        <li>Plug Parts &amp; Pins</li>
+        <li>Levers</li>
+        <li>Socket Parts</li>
+        <li>Moulding Inserts</li>
+      </ul>
+    </div>
+    <div class="industry-card reveal">
+      <div class="ind-icon">💻</div>
+      <div class="ind-title">Electronics</div>
+      <ul class="ind-items">
+        <li>VGA Cable Parts</li>
+        <li>Bolts &amp; Nuts</li>
+      </ul>
+    </div>
+    <div class="industry-card reveal">
+      <div class="ind-icon">🔧</div>
+      <div class="ind-title">Hardware</div>
+      <ul class="ind-items">
+        <li>Bath Fitting Parts</li>
+        <li>Moulding Parts</li>
+        <li>Adaptors</li>
+      </ul>
+    </div>
+    <div class="industry-card reveal">
+      <div class="ind-icon">🏭</div>
+      <div class="ind-title">General Engineering</div>
+      <ul class="ind-items">
+        <li>Bushes</li>
+        <li>Shafts</li>
+        <li>Pulleys</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-								<!-- Box -->
-									<section class="box feature">
-										<a href="#" class="image featured"><img src="images/Product1.png" alt="" /></a>
-										<div class="inner">
-											<header>
-												<h2>Put something here</h2>
-												<p>Maybe here as well I think</p>
-											</header>
-											<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
-										</div>
-									</section>
+<!-- ══ PRODUCTS ══ -->
+<section id="products">
+  <div class="section-head reveal">
+    <span class="section-label">Our Work</span>
+    <h2 class="section-title">Product Gallery</h2>
+    <p class="section-desc">
+      Click any component to view it in full detail. Every piece is manufactured
+      to tight tolerances for reliable, long-lasting performance.
+    </p>
+  </div>
 
-							</div>
-							<div class="col-4 col-12-medium">
+  <div class="filter-bar reveal" id="filter-bar">
+    <button class="filter-btn active" data-filter="all">All Products</button>
+    <button class="filter-btn" data-filter="hex">Hex Spacers / Standoffs</button>
+    <button class="filter-btn" data-filter="shaft">Shafts &amp; Bolts</button>
+    <button class="filter-btn" data-filter="bush">Bushes &amp; Adapters</button>
+    <button class="filter-btn" data-filter="specialty">Specialty Parts</button>
+  </div>
 
-								<!-- Box -->
-									<section class="box feature">
-										<a href="#" class="image featured"><img src="images/Product2.png" alt="" /></a>
-										<div class="inner">
-											<header>
-												<h2>An interesting title</h2>
-												<p>This is also an interesting subtitle</p>
-											</header>
-											<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
-										</div>
-									</section>
+  <div class="products-grid" id="products-grid">
+    <!-- JS renders cards here -->
+  </div>
+</section>
 
-							</div>
-							<div class="col-4 col-12-medium">
+<!-- ══ WHY US ══ -->
+<section id="why">
+  <div class="section-head reveal">
+    <span class="section-label">Why Choose Us</span>
+    <h2 class="section-title">The Aditya Advantage</h2>
+  </div>
+  <div class="why-grid">
+    <div class="why-card reveal">
+      <div class="why-icon">🎯</div>
+      <h3>Precision First</h3>
+      <p>Swiss-type and die-box machines deliver components within micron-level tolerances every time.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-icon">📈</div>
+      <h3>Scalable Volume</h3>
+      <p>10 machines running in parallel means we scale with your production demands without compromise.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-icon">🤝</div>
+      <h3>15+ Years Trust</h3>
+      <p>Decade-and-a-half of delivering quality components across India's critical industries.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-icon">🔩</div>
+      <h3>Wide Material Range</h3>
+      <p>Brass, stainless steel, mild steel, aluminium and more — we work with your preferred material.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-icon">🚀</div>
+      <h3>Fast Turnaround</h3>
+      <p>Streamlined shop floor processes ensure your orders reach you on schedule, every time.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-icon">📋</div>
+      <h3>Custom Profiles</h3>
+      <p>From drawings or samples — we reverse-engineer and manufacture to your exact specification.</p>
+    </div>
+  </div>
+</section>
 
-								<!-- Box -->
-									<section class="box feature">
-										<a href="#" class="image featured"><img src="images/Product3.png" alt="" /></a>
-										<div class="inner">
-											<header>
-												<h2>Oh, and finally ...</h2>
-												<p>Here's another intriguing subtitle</p>
-											</header>
-											<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
-										</div>
-									</section>
+<!-- ══ CONTACT ══ -->
+<section id="contact">
+  <div class="section-head reveal">
+    <span class="section-label">Get in Touch</span>
+    <h2 class="section-title">Let's Build Something Together</h2>
+    <p class="section-desc">
+      Have a component requirement? Send us your drawing or specification and we'll
+      get back to you with a competitive quote.
+    </p>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <div class="contact-item">
+        <div class="contact-icon">🏢</div>
+        <div>
+          <h4>Registered Office</h4>
+          <p>Block-1204, Wing A-1, LIG-2, Opp Air Force Gate-2,<br>
+             B/H Shanti Harmony, Jamnagar</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🏭</div>
+        <div>
+          <h4>Plant / Factory</h4>
+          <p>Plot No. 464/194, Udyognagar,<br>
+             Jamnagar Factory Owners Association,<br>
+             Sankar Tekri Udyognagar,<br>
+             Jamnagar – 361004, Gujarat</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📧</div>
+        <div>
+          <h4>Email</h4>
+          <p><a href="mailto:ae.adityaenterprise@gmail.com" style="color:#ccc;">ae.adityaenterprise@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📱</div>
+        <div>
+          <h4>Mobile</h4>
+          <p>
+            <a href="tel:+919879808247" style="color:#ccc;">+91 98798 08247</a><br>
+            <a href="tel:+919879362154" style="color:#ccc;">+91 98793 62154</a><br>
+            <a href="tel:+919924279241" style="color:#ccc;">+91 99242 79241</a>
+          </p>
+        </div>
+      </div>
+    </div>
 
-							</div>
-						</div>
-					</div>
-				</div>
+    <div class="contact-form reveal">
+      <h3>Request a Quote</h3>
+      <form id="quote-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-name">Your Name *</label>
+            <input type="text" id="f-name" name="name" placeholder="Full name" required />
+          </div>
+          <div class="form-group">
+            <label for="f-company">Company</label>
+            <input type="text" id="f-company" name="company" placeholder="Company name" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-email">Email *</label>
+            <input type="email" id="f-email" name="email" placeholder="you@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="f-phone">Phone</label>
+            <input type="tel" id="f-phone" name="phone" placeholder="+91 XXXXX XXXXX" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="f-industry">Industry</label>
+          <select id="f-industry" name="industry">
+            <option value="">Select your industry</option>
+            <option>Automobile</option>
+            <option>Gas</option>
+            <option>Electrical</option>
+            <option>Electronics</option>
+            <option>Hardware</option>
+            <option>General Engineering</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="f-msg">Requirement / Message *</label>
+          <textarea id="f-msg" name="message" placeholder="Describe your component requirement, quantity, material, etc." required></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send Enquiry</button>
+        <p class="form-note">We'll respond within 1 business day.</p>
+      </form>
+    </div>
+  </div>
+</section>
 
-			<!-- Main -->
-				<div id="main-wrapper">
-					<div class="container">
-						<div class="row gtr-200">
-							<div class="col-4 col-12-medium">
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-logo"><em>Aditya</em> Enterprise</div>
+  <p>Manufacturer of Precision Metal Components · Jamnagar, Gujarat</p>
+  <p style="color:#555">© 2026 Aditya Enterprise. All rights reserved.</p>
+</footer>
 
-								<!-- Sidebar -->
-									<div id="sidebar">
-										<section class="widget thumbnails">
-											<h3>Some products</h3>
-											<div class="grid">
-												<div class="row gtr-50">
-													<div class="col-6"><a href="#" class="image fit"><img src="images/Product1.png" alt="" /></a></div>
-													<div class="col-6"><a href="#" class="image fit"><img src="images/Product2.png" alt="" /></a></div>
-													<div class="col-6"><a href="#" class="image fit"><img src="images/Product3.png" alt="" /></a></div>
-													<div class="col-6"><a href="#" class="image fit"><img src="images/Product4.png" alt="" /></a></div>
-												</div>
-											</div>
-											<a href="products.html" class="button icon fa-file-alt">More</a>
-										</section>
-									</div>
+<!-- ══ LIGHTBOX ══ -->
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Product image viewer">
+  <div class="lb-content">
+    <button class="lb-close" id="lb-close" aria-label="Close">✕</button>
+    <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous">‹</button>
+    <img src="" alt="Product" id="lb-img" />
+    <button class="lb-nav lb-next" id="lb-next" aria-label="Next">›</button>
+    <div class="lb-caption" id="lb-caption"></div>
+  </div>
+</div>
 
-							</div>
-							<div class="col-8 col-12-medium imp-medium">
+<!-- ══ BACK TO TOP ══ -->
+<div id="back-top" title="Back to top" role="button" tabindex="0" aria-label="Back to top">↑</div>
 
-								<!-- Content -->
-									<div id="content">
-										<section class="last">
-											<h2>So what's this all about?</h2>
-											<p>This is <strong>Verti</strong>, a free and fully responsive HTML5 site template by <a href="http://html5up.net">HTML5 UP</a>.
-											Verti is released under the <a href="http://html5up.net/license">Creative Commons Attribution license</a>, so feel free to use it for any personal or commercial project you might have going on (just don't forget to credit us for the design!)</p>
-											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper bibendum ipsum, et tristique augue fringilla eu. Vivamus id risus vel dolor auctor euismod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus mattis lectus sit amet phasellus quam turpis.</p>
-											<a href="products.html" class="button icon solid fa-arrow-circle-right">Continue Reading</a>
-										</section>
-									</div>
+<!-- ══ TOAST ══ -->
+<div id="toast"></div>
 
-							</div>
-						</div>
-					</div>
-				</div>
+<script>
+  /* ─────── Product Data ─────── */
+  const products = [
+    { id:1,  name:"Hex Spacer (Short)",          cat:"hex",      file:"Product (1).jpeg"  },
+    { id:2,  name:"Hex Standoff (Long)",          cat:"hex",      file:"Product (2).jpeg"  },
+    { id:3,  name:"Precision Threaded Shaft",     cat:"shaft",    file:"Product (3).jpeg"  },
+    { id:4,  name:"Hex Spacer with Stud",         cat:"hex",      file:"Product (4).jpeg"  },
+    { id:5,  name:"Flanged Threaded Bolt",        cat:"shaft",    file:"Product (5).jpeg"  },
+    { id:6,  name:"Hollow Threaded Insert",       cat:"bush",     file:"Product (6).jpeg"  },
+    { id:7,  name:"Precision Turned Pin",         cat:"specialty",file:"Product (7).jpeg"  },
+    { id:8,  name:"Shoulder Bolt",                cat:"shaft",    file:"Product (8).jpeg"  },
+    { id:9,  name:"Hex Bush Adapter",             cat:"bush",     file:"Product (9).jpeg"  },
+    { id:10, name:"Electrical Moulding Insert",   cat:"specialty",file:"Product (10).jpeg" },
+    { id:11, name:"Solenoid Valve Component",     cat:"specialty",file:"Product (11).jpeg" },
+    { id:12, name:"Precision Stud",               cat:"shaft",    file:"Product (12).jpeg" },
+    { id:13, name:"Hex Coupling Nut",             cat:"hex",      file:"Product (13).jpeg" },
+    { id:14, name:"Turned Bushing",               cat:"bush",     file:"Product (14).jpeg" },
+    { id:15, name:"LPG Valve Part",               cat:"specialty",file:"Product (15).jpeg" },
+    { id:16, name:"Bath Fitting Adaptor",         cat:"bush",     file:"Product (16).jpeg" },
+    { id:17, name:"VGA Cable Bolt",               cat:"shaft",    file:"Product (17).jpeg" },
+    { id:18, name:"Hex Spacer (Medium)",          cat:"hex",      file:"Product (18).jpeg" },
+    { id:19, name:"Precision Turned Component",   cat:"specialty",file:"Product (19).jpeg" },
+  ];
 
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<footer id="footer" class="container">
-						<div class="row">
-							<div class="col-3 col-6-medium col-12-small">
+  const catLabels = {
+    hex:      "Hex Spacers / Standoffs",
+    shaft:    "Shafts & Bolts",
+    bush:     "Bushes & Adapters",
+    specialty:"Specialty Parts",
+  };
 
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Quick Links</h3>
-										<ul class="style2">
-											<li><a href="#">Product 1</a></li>
-											<li><a href="#">Product 2</a></li>
-											<li><a href="#">Product 3</a></li>
-											<li><a href="#">Product 4</a></li>
-											<li><a href="#">Product 5</a></li>
-										</ul>
-									</section>
+  /* ─────── Render Products ─────── */
+  let activeFilter = "all";
+  let currentIndex = 0; // index in filtered list
+  let filteredProducts = [...products];
 
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
+  function renderProducts(filter) {
+    filteredProducts = filter === "all" ? [...products] : products.filter(p => p.cat === filter);
+    const grid = document.getElementById("products-grid");
+    grid.innerHTML = filteredProducts.map((p, i) => `
+      <div class="product-card reveal" data-index="${i}" onclick="openLightbox(${i})">
+        <div class="product-img-wrap">
+          <img src="products/${p.file}" alt="${p.name}" loading="lazy" />
+          <div class="product-overlay">
+            <div class="overlay-icon">🔍</div>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-name">${p.name}</div>
+          <div class="product-cat">${catLabels[p.cat]}</div>
+        </div>
+      </div>
+    `).join("");
+    observeReveal();
+  }
 
-								<!-- Links -->
-									<!-- <section class="widget links">
-										<h3>Random Stuff</h3>
-										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
-										</ul>
-									</section> -->
+  /* ─────── Filter Buttons ─────── */
+  document.getElementById("filter-bar").addEventListener("click", e => {
+    const btn = e.target.closest(".filter-btn");
+    if (!btn) return;
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    activeFilter = btn.dataset.filter;
+    renderProducts(activeFilter);
+  });
 
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
+  /* ─────── Lightbox ─────── */
+  const lb      = document.getElementById("lightbox");
+  const lbImg   = document.getElementById("lb-img");
+  const lbCap   = document.getElementById("lb-caption");
 
-								<!-- Links -->
-									<!-- <section class="widget links">
-										<h3>Random Stuff</h3>
-										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
-										</ul>
-									</section> -->
+  function openLightbox(index) {
+    currentIndex = index;
+    showImage();
+    lb.classList.add("open");
+    document.body.style.overflow = "hidden";
+  }
 
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
+  function showImage() {
+    const p = filteredProducts[currentIndex];
+    lbImg.src = "products/" + p.file;
+    lbImg.alt = p.name;
+    lbCap.innerHTML = `<strong>${p.name}</strong> &nbsp;·&nbsp; ${catLabels[p.cat]}
+      &nbsp;<span class="lb-counter">${currentIndex + 1} / ${filteredProducts.length}</span>`;
+  }
 
-								<!-- Contact -->
-									<section class="widget contact last">
-										<h3>Contact Us</h3>
-										<ul>
-											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-											<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-										</ul>
-										<p>1204, Wing A-1, LIG-2, <br/>
-											Opp airforce gate-2<br />
-											b/h Shanti Harmony,
-											Jamanager - 00000<br />
-											Ravi    - 98798 08247 <br/>
-										    Kuldeep - 98793 62154 <br/>
-										    Hiren   - 99242 79241 <br/></p>
-									</section>
+  function closeLightbox() {
+    lb.classList.remove("open");
+    document.body.style.overflow = "";
+    lbImg.src = "";
+  }
 
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12">
-								<div id="copyright">
-									<ul class="menu">
-										<li>&copy; Aditya Enterprise. All rights reserved</li>
-										<!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
-									</ul>
-								</div>
-							</div>
-						</div>
-					</footer>
-				</div>
+  document.getElementById("lb-close").onclick = closeLightbox;
+  document.getElementById("lb-prev").onclick = () => {
+    currentIndex = (currentIndex - 1 + filteredProducts.length) % filteredProducts.length;
+    showImage();
+  };
+  document.getElementById("lb-next").onclick = () => {
+    currentIndex = (currentIndex + 1) % filteredProducts.length;
+    showImage();
+  };
+  lb.addEventListener("click", e => { if (e.target === lb) closeLightbox(); });
+  document.addEventListener("keydown", e => {
+    if (!lb.classList.contains("open")) return;
+    if (e.key === "Escape") closeLightbox();
+    if (e.key === "ArrowLeft")  { currentIndex = (currentIndex-1+filteredProducts.length)%filteredProducts.length; showImage(); }
+    if (e.key === "ArrowRight") { currentIndex = (currentIndex+1)%filteredProducts.length; showImage(); }
+  });
 
-			</div>
+  /* Touch swipe */
+  let tsX = 0;
+  lb.addEventListener("touchstart", e => { tsX = e.touches[0].clientX; }, { passive: true });
+  lb.addEventListener("touchend",   e => {
+    const dx = e.changedTouches[0].clientX - tsX;
+    if (Math.abs(dx) > 50) {
+      currentIndex = dx < 0
+        ? (currentIndex+1) % filteredProducts.length
+        : (currentIndex-1+filteredProducts.length) % filteredProducts.length;
+      showImage();
+    }
+  });
 
-		<!-- Scripts -->
+  /* ─────── Hamburger ─────── */
+  const ham = document.getElementById("hamburger");
+  const mob = document.getElementById("mobile-menu");
+  ham.addEventListener("click", () => mob.classList.toggle("open"));
+  ham.addEventListener("keydown", e => { if (e.key==="Enter") mob.classList.toggle("open"); });
+  function closeMobile() { mob.classList.remove("open"); }
 
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+  /* ─────── Scroll Reveal ─────── */
+  function observeReveal() {
+    const els = document.querySelectorAll(".reveal:not(.visible)");
+    const io = new IntersectionObserver((entries, obs) => {
+      entries.forEach(en => {
+        if (en.isIntersecting) {
+          en.target.classList.add("visible");
+          obs.unobserve(en.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    els.forEach(el => io.observe(el));
+  }
 
-	</body>
+  /* ─────── Back to Top ─────── */
+  const btt = document.getElementById("back-top");
+  window.addEventListener("scroll", () => {
+    btt.classList.toggle("visible", window.scrollY > 400);
+  }, { passive: true });
+  btt.addEventListener("click",   () => window.scrollTo({ top: 0, behavior: "smooth" }));
+  btt.addEventListener("keydown", e => { if (e.key==="Enter") window.scrollTo({ top: 0, behavior: "smooth" }); });
+
+  /* ─────── Quote Form ─────── */
+  document.getElementById("quote-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    const name  = document.getElementById("f-name").value.trim();
+    const email = document.getElementById("f-email").value.trim();
+    const msg   = document.getElementById("f-msg").value.trim();
+    if (!name || !email || !msg) {
+      showToast("⚠ Please fill in the required fields.");
+      return;
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      showToast("⚠ Please enter a valid email address.");
+      return;
+    }
+    showToast("✅ Thank you! We'll respond within 1 business day.");
+    this.reset();
+  });
+
+  /* ─────── Toast ─────── */
+  function showToast(msg) {
+    const t = document.getElementById("toast");
+    t.textContent = msg;
+    t.classList.add("show");
+    setTimeout(() => t.classList.remove("show"), 3800);
+  }
+
+  /* ─────── Init ─────── */
+  renderProducts("all");
+  observeReveal();
+</script>
+</body>
 </html>
